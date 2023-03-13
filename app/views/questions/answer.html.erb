@@ -1,6 +1,7 @@
 <h1 class="px=5">STUPID COACHING</h1>
 
-<p><%=params[:answer]%> - You</p>
-<p><%=@answers%> - Your coach</p>
+<div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded"><%=params[:answer]%> - You</div>
+
+<div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded"><%=@answers%> - Your coach</div>
 
 <%= link_to "ask a new question", ask_path %>
